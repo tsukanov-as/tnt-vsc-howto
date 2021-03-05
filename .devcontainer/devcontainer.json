@@ -1,6 +1,6 @@
 {
 	"name": "tnt-vsc-howto",
-    "image": "tarantool/tarantool",
+	"image": "tarantool/tarantool",
 	"workspaceFolder": "/workspaces/tnt-vsc-howto",
 	"extensions": [
 		"tomblind.local-lua-debugger-vscode"
