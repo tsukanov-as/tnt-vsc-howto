@@ -1,8 +1,11 @@
 {
 	"name": "tnt-vsc-howto",
-	"image": "tarantool/tarantool",
+	"build": {
+		"dockerfile": "Dockerfile",
+	},
 	"workspaceFolder": "/workspaces/tnt-vsc-howto",
 	"extensions": [
-		"tomblind.local-lua-debugger-vscode"
+		"tomblind.local-lua-debugger-vscode",
+		"tsukanov-as.tnt-lsp-client"
 	]
 }
